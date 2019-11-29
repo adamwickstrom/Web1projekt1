@@ -8,19 +8,33 @@ body {
 }
 
 
-p {
+pre {
 	text-align:center; 
 	background-color: white;
+    margin-right: 20em;
+    margin-left: 20em;
+    padding: 25px; 
+    border-style: solid; 
+    border-color: lightblue;
+    border-width: 10px;
 }
 
 h1 {
 	text-align:center;
 	background-color: white;
-	
+    margin-right: 500px;
+    margin-left: 500px;
+    border-radius: 25px;
+    background: lightblue;
+    padding: 20px; 
+    width: auto;
+    height: auto; 
 }
+
 nav{
 	height:50px;
 }
+
 nav ul{
 	display:flex;
 	width:100%;
