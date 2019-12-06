@@ -1,0 +1,97 @@
+*{
+	padding: 0;
+	margin: 0;				
+}
+body {
+	background-image: url("https://images.wallpaperscraft.com/image/molecules_atoms_chemistry_compound_113605_3840x2160.jpg");
+}
+nav{
+	height:50px;
+}
+nav ul{
+	display:flex;
+	width:100%;
+	height:100%;
+}
+nav li {
+	display: flex;
+	justify-content: space-around;
+	text-decoration: none;
+	list-style-type: none;
+	background-color: #333333;
+	width: 33.33333333333%;
+	height: 100%;
+}
+nav a{
+	text-decoration: none;
+	display:inline-block;
+	width:100%;
+	height:100%;
+	text-align: center;
+	line-height:3em;
+	text-transform: uppercase;
+	font-family: calibri;
+	font-weight: bold;
+	color: #aaa;	
+}
+nav a:hover{
+	color:#333333;
+	background-color: #aaa;
+	width:100%;
+}
+.active{
+	background-color: #aaa;
+	color: #333333;
+}
+h1 {
+	text-align:center;
+	background-color: white;
+    margin-right: 500px;
+    margin-left: 500px;
+    border-radius: 25px;
+    background: #333333;
+    padding: 20px; 
+    width: auto;
+    height: auto; 
+	color: #aaa;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+pre {
+	text-align:center; 
+	background-color: white;
+    margin-right: 20em;
+    margin-left: 20em;
+    padding: 25px; 
+    border-style: solid; 
+    border-color: #333333;
+    border-width: 10px;
+	font-size: 20px;
+	margin-bottom: 20px;
+}
+.klubbstugan {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 500px;
+	
+}
+table{
+	background-color: white;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	border-collapse: collapse ;
+}
+table, th, td{
+	border: 2px solid black;
+}
+th, td{
+	padding: 23px;
+}
+table img{
+	width:100px;
+	border-radius:50%;
+}
+
+
