@@ -1,38 +1,38 @@
-*{
+*{ /*nollställer hela skiten*/
 	padding: 0;
 	margin: 0;				
 }
-body {
-	background-image: url("https://images.wallpaperscraft.com/image/molecules_atoms_chemistry_compound_113605_3840x2160.jpg");
+body { 
+	background-image: url("https://images.wallpaperscraft.com/image/molecules_atoms_chemistry_compound_113605_3840x2160.jpg"); /*Lägger bakgrundsbild på hela sida*/
 }
 nav{
-	height:50px;
+	height:50px; /*Bestämmer höjden på globala menyn*/
 }
 nav ul{
-	display:flex;
-	width:100%;
-	height:100%;
+	display:flex; /*sätter lista till flex-läge*/
+	width:100%;/*sätter full bredd listan*/
+	height:100%;/*bestämmer höjd på listan*/
 }
 nav li {
-	display: flex;
-	justify-content: space-around;
-	text-decoration: none;
-	list-style-type: none;
-	background-color: #333333;
+	display: flex; 
+	justify-content: space-around; /*Gör förhållandet mellan länkarna lika stora*/
+	text-decoration: none;/*Tar bort sträcken under länkarna*/
+	list-style-type: none;/*Tar bort list märket*/
+	background-color: #333333;/*Sätter bakgrunds färgen på listan*/
 	width: 33.33333333333%;
 	height: 100%;
 }
 nav a{
 	text-decoration: none;
-	display:inline-block;
+	display:inline-block;/*Den gör den relativ till margin och padding*/
 	width:100%;
 	height:100%;
-	text-align: center;
-	line-height:3em;
-	text-transform: uppercase;
-	font-family: calibri;
-	font-weight: bold;
-	color: #aaa;	
+	text-align: center;/*Centrerar texten*/
+	line-height:3em;/*sätter höjden på lådorna i nav listan*/
+	text-transform: uppercase;/*gör text till stora bokstäver*/
+	font-family: calibri;/*Sätter textstilen*/
+	font-weight: bold;/*Gör tjock text*/
+	color: #aaa;/*text färg*/	
 }
 nav a:hover{
 	color:#333333;
