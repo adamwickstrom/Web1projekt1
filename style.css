@@ -1,6 +1,7 @@
-*{ /*nollställer hela skiten*/
+*{ 
 	padding: 0;
-	margin: 0;				
+	margin: 0;
+	/*tar bort mällanrum mellan nav-bar och skärmkanten*/
 }
 body { 
 	background-image: url("https://images.wallpaperscraft.com/image/molecules_atoms_chemistry_compound_113605_3840x2160.jpg"); /*Lägger bakgrundsbild på hela sida*/
@@ -61,19 +62,19 @@ h1 { /*sidotitel*/
     height: auto; /*höjd*/
 	color: #aaa; /*textfärg*/
 }
-pre {
+pre {/*text*/
 	text-align:center; 
 	background-color: white;
-    margin-right: 20em;
-    margin-left: 20em;
-    padding: 25px; 
-    border-style: solid; 
-    border-color: #333333;
-    border-width: 10px;
+    	margin-right: 20em;
+    	margin-left: 20em;
+    	padding: 25px; 
+	border-style: solid;/*Bestämmer att kanterna runt text ska vara hela sträck*/
+   	border-color: #333333;
+    	border-width: 10px;
 	font-size: 20px;
 	margin-bottom: 20px;
 }
-.klubbstugan {
+.klubbstugan {/*klass som andvänds till bild*/
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
@@ -95,26 +96,26 @@ th, td{
 }
 
 
-tbody tr:nth-child(even){
+tbody tr:nth-child(even){/*Bestämmer för jämna rader*/
 	background-color: lightgray;
 	
 }
 
-table tr > td:nth-child(3) > img{
+table tr > td:nth-child(3) > img{/*berör bilderna på tredje kolumnen i tabellen*/
 	width:100px;
-	border-radius:50%;
+	border-radius:50%;/*rundar hörnen på bilderna*/
 	padding: 2px;
 	
 }	
 
-table tr > td:nth-child(4) > img{
+table tr > td:nth-child(4) > img{/*berör bilderna i fjädre kolumnen i tabellen*/
 	width: 230px;
 	padding: 0ch;
 	margin: 0rem;
 
 }
 
-table tr > td:nth-child(4){
+table tr > td:nth-child(4){/*Berör fjädre kolumnen*/
 	padding: 0vw;	
 	border-bottom: none;
 	
