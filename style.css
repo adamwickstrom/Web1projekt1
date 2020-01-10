@@ -71,7 +71,7 @@ pre {/*text*/
 	border-style: solid;/*Bestämmer att kanterna runt text ska vara hela sträck*/
    	border-color: #333333;
     	border-width: 10px;
-	font-size: 20px;
+	font-size: 100%;
 	margin-bottom: 20px;
 }
 .klubbstugan {/*klass som andvänds till bild*/
